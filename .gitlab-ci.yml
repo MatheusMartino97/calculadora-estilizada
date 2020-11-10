@@ -1,7 +1,6 @@
 pages:
   stage: deploy
-  script: 
-    - echo "Creating \(then using\) new \"public\" directory from files at project root"
+  script:
     - mkdir ./.public
     - cp -r * ./.public
     - mv ./.public ./public
